@@ -100,6 +100,7 @@ alias t='tree'
 alias bat='batcat'
 alias n="nvim -c 'lua require(\"telescope.builtin\").find_files()'"
 alias editnvim='cd ~/.config/nvim && n'
+alias mapesc='setxkbmap -option "caps:escape_shifted_capslock"'
 alias cdf='cd "$(find . -type d | fzf)"'
 alias cdfh='cd "$(find ~ -type d \( -path "*/.*" -o -name "node_modules" -o -name "software" \) -prune -o -type d -print | fzf)"'
 alias codef='code "$(find . type d | fzf)"'
@@ -113,6 +114,9 @@ alias filesh='nautilus "$(find ~ -type d \( -path "*/.*" -o -name "node_modules"
 alias vimf='vim $(fzfp)'
 alias tscw='tsc --outDir build --target es2015 --noEmitOnError --watch '
 alias empty='cat ~/Documents/invisiblechar.txt | xclip -selection clipboard'
+
+bind -x '"\C-f": tmux-sessionizer'
+bind -x '"\C-o": code -r .'
 
 tnl() {
 	ssh -R 80:localhost:$1 nokey@localhost.run
@@ -146,4 +150,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="$PATH:~/.local/nvim-linux-x86_64/bin:$HOME/setup"
+export PATH="$PATH:~/.local/nvim-linux-x86_64/bin:$HOME/setup:$HOME/.local/scripts"
