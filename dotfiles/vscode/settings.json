@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "keyboard.dispatch": "keyCode",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.duration": 200,
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["space", "space", "y"],
+            "commands": [":%y"]
+        }
+    ]
+}
