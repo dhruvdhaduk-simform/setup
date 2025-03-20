@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Tokyo Night",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "symbols",
     "explorer.confirmDragAndDrop": false,
     "keyboard.dispatch": "keyCode",
     "vim.highlightedyank.enable": true,

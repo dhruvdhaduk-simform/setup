@@ -9,7 +9,7 @@ enkia.tokyo-night
 esbenp.prettier-vscode
 mads-hartmann.bash-ide-vscode
 mhutchie.git-graph
-pkief.material-icon-theme
+miguelsolorio.symbols
 rangav.vscode-thunder-client
 ritwickdey.liveserver
 usernamehw.errorlens
