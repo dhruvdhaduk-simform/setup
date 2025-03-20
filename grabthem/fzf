@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
 
-sudo apt update
-sudo apt install fzf
+FZF_SOURCE_DIR=$HOME/software/source/fzf
+
+if cd $FZF_SOURCE_DIR ; then
+    git pull
+else
+    git clone git@github.com:junegunn/fzf.git --depth 1 $FZF_SOURCE_DIR
+    cd $FZF_SOURCE_DIR
+fi
+
+./install
