@@ -12,6 +12,7 @@ mhutchie.git-graph
 miguelsolorio.symbols
 rangav.vscode-thunder-client
 ritwickdey.liveserver
+tombonnike.vscode-status-bar-format-toggle
 usernamehw.errorlens
 vscodevim.vim
 xabikos.javascriptsnippets

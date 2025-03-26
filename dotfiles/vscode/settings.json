@@ -1,4 +1,4 @@
-{
+
     "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "symbols",
     "explorer.confirmDragAndDrop": false,
@@ -12,5 +12,14 @@
             "before": ["space", "space", "y"],
             "commands": [":%y"]
         }
-    ]
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
 }
