@@ -153,3 +153,5 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:~/.local/nvim-linux-x86_64/bin:$HOME/setup:$HOME/.local/scripts"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export LANG=en_IN.UTF-8
