@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Get the current tmux session name
+SESSION_NAME=$(tmux display-message -p '#S')
+
+# Create a new window (window 2)
+tmux new-window -t "${SESSION_NAME}:2"
+
+# Send 'nvim .' command to window 1
+tmux send-keys -t "${SESSION_NAME}:1" 'nvim .' Enter
+
+# Switch focus to window 2
+tmux select-window -t "${SESSION_NAME}:2"
