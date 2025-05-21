@@ -1,28 +1,29 @@
 {
-    "workbench.colorTheme": "Tokyo Night",
-    "workbench.iconTheme": "symbols",
-    "explorer.confirmDragAndDrop": false,
-    "keyboard.dispatch": "keyCode",
-    "vim.highlightedyank.enable": true,
-    "vim.highlightedyank.duration": 200,
-    "vim.smartRelativeLine": true,
-    "vim.useSystemClipboard": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["space", "space", "y"],
-            "commands": [":%y"]
-        }
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "editor.minimap.renderCharacters": false,
-    "tailwind-fold.autoFold": false,
-    "security.promptForLocalFileProtocolHandling": false
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "symbols",
+  "explorer.confirmDragAndDrop": false,
+  "keyboard.dispatch": "keyCode",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 200,
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["space", "space", "y"],
+      "commands": [":%y"]
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 4,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.minimap.renderCharacters": false,
+  "tailwind-fold.autoFold": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "explorer.confirmPasteNative": false
 }

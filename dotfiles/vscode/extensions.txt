@@ -1,5 +1,6 @@
 alefragnani.project-manager
 bradlc.vscode-tailwindcss
+ccjr.emotion-auto-css
 codezombiech.gitignore
 dbaeumer.vscode-eslint
 digitalbrainstem.javascript-ejs-support
@@ -10,13 +11,16 @@ ecmel.vscode-html-css
 enkia.tokyo-night
 esbenp.prettier-vscode
 github.vscode-github-actions
+ijs.emotionsnippets
 mads-hartmann.bash-ide-vscode
 mhutchie.git-graph
 miguelsolorio.symbols
 rangav.vscode-thunder-client
+riccardoforina.storybook-helper
 ritwickdey.liveserver
 stivo.tailwind-fold
 tombonnike.vscode-status-bar-format-toggle
+unifiedjs.vscode-mdx
 usernamehw.errorlens
 vscodevim.vim
 xabikos.javascriptsnippets
