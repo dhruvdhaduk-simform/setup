@@ -117,6 +117,7 @@ alias empty='cat ~/Documents/invisiblechar.txt | xclip -selection clipboard'
 
 bind -x '"\C-f": tmux-sessionizer'
 bind -x '"\C-o": code -r .'
+bind -x '"\C-g": ghfz'
 
 tnl() {
 	ssh -R 80:localhost:$1 nokey@localhost.run
