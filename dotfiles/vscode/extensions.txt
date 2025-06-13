@@ -1,3 +1,4 @@
+adpyke.codesnap
 alefragnani.project-manager
 bradlc.vscode-tailwindcss
 ccjr.emotion-auto-css
@@ -10,6 +11,8 @@ eamodio.gitlens
 ecmel.vscode-html-css
 enkia.tokyo-night
 esbenp.prettier-vscode
+github.copilot
+github.copilot-chat
 github.vscode-github-actions
 ijs.emotionsnippets
 mads-hartmann.bash-ide-vscode
@@ -24,5 +27,6 @@ unifiedjs.vscode-mdx
 usernamehw.errorlens
 vscodevim.vim
 xabikos.javascriptsnippets
+yeongpin.mouse-commenter
 zignd.html-css-class-completion
 ziyasal.vscode-open-in-github
