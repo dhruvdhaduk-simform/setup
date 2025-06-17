@@ -25,6 +25,7 @@ stivo.tailwind-fold
 tombonnike.vscode-status-bar-format-toggle
 unifiedjs.vscode-mdx
 usernamehw.errorlens
+vira.vsc-vira-theme
 vscodevim.vim
 xabikos.javascriptsnippets
 yeongpin.mouse-commenter
